@@ -1,0 +1,41 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url("../background.jpg");
+	color: white;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.titulo {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-size: 25px;
+	width: 100%;
+}
+
+.carta {
+	position: relative;
+	width: 150px;
+	margin: 0 auto;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+	height: 240px;
+}
+
+@media (max-width: 768px) {
+	.carta {
+		width: 100px;
+	}
+
+	#computadora-cartas,
+	#jugador-cartas {
+		height: 120px;
+	}
+}
